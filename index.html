@@ -1,14 +1,69 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>index.html</title>
-        <img src="https://media-exp1.licdn.com/dms/image/C4E0BAQGWExubAKy8OA/company-logo_200_200/0?e=2159024400&v=beta&t=9nT_2sEhJ5UJfqBq5xLxFRVo4AoRW9Mx3AgXAmrMLzo" alt="logo">
+        <title>online CV website</title>
         <meta charset="utf-8">
     </head>
     <body>
-        <h1> Information of group 6</h1>
-        <ul> List of member</ul>
-        <li>Duong</li>
-        <li>Hai</li>
+        <style>
+            .midle-page{
+                display: flex;
+                margin-left: 450px
+            }
+            #avar{
+                width: 200px;
+                height: 150px;
+            }
+            #wrap-text{
+                width:200px;
+                text-align: justify;
+            }
+            #vid-position{
+                margin-top: 100px;
+                margin-left: 600px
+            }
+        </style>
+        <!--table for header(picture and some personal info)-->
+        <div class="midle-page">
+            <img id="avar" src="ava.jpg">
+            <table>
+                <tr>
+                    <th>Name:</th>
+                    <th>Lâm Hồng Hải</th>
+                </tr>
+                <tr>
+                    <th>Email:</th>
+                    <th>s3741118</th>
+                </tr>
+                <tr>
+                    <th>Address:</th>
+                    <th>5, street 2, district Binh Tan, HCM city</th>
+                </tr>
+            </table>
+        </div>
+
+        <div>
+            <h3 class="midle-page"> Personal introduction:</h3>
+            <div class="midle-page">
+                <p id="wrap-text">Im Hai, my major is electronic engineering. And Im very interested in web programming. Also I know basic about C, C++, arduino and python.</p>
+            </div>
+
+            <h3 class="midle-page"> Study:</h3>
+            <div class="midle-page">
+                <p id="wrap-text">3rd at RMIT.</p>
+            </div>
+
+            <h3 class="midle-page"> Hobby:</h3>
+            <div class="midle-page">
+                <p id="wrap-text">Basketball, Swimming, reading, and Embedded</p>
+            </div>
+
+        </div>
+
+        <div>
+            <video id="vid-position" class="vid-position" src="handSantizerMachine.mp4" controls width="150px" height="150px"></video>
+        </div>
     </body>
-</html>
+ 
+
+    <!--<video class="vid-position" src="handSantizerMachine.mp4" controls width="150px" height="150px"></video>-->
